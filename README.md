@@ -9,43 +9,75 @@ Just like before we will continue to build on our `fruit-app` but this time we w
 
 Let's add `users.js` under `models` folder.
 
-```
-const users = [    {        name:'Tony Stark',        username: 'ironman',        password: 'prettyawesome'    },    {        name:'Clark Kent',        username: 'superman',        password: `canfly`    },    {        name:'Bruce Wayne',        username: 'batman',        password: 'hasgadgets'    }]module.exports = users;
+```js
+const users = [
+    {
+        name:'Tony Stark',
+        username: 'ironman',
+        password: 'prettyawesome'
+    },
+    {
+        name:'Clark Kent',
+        username: 'superman',
+        password: `canfly`
+    },
+    {
+        name:'Bruce Wayne',
+        username: 'batman',
+        password: 'hasgadgets'
+    }
+]
+
+module.exports = users;
 ```
 
 ### Create User Controller
 
 Create `users.js` under `controllers` folder. Import the `users` model.
 
-```
-const users = require('../models/users');module.exports = {    }
+```js
+const users = require('../models/users');
+
+module.exports = {
+    
+}
 ```
 
 Also, export users in `controllers/index.js`.
 
-```
-module.exports = {    fruits: require('./fruits'),    users: require('./users')}
+```js
+module.exports = {
+    fruits: require('./fruits'),
+    users: require('./users')
+}
 ```
 
 ### Create User Routes
 
 Create `users.js` under `routes` folder. Import the Express Router.
 
-```
-const express = require('express');const router = express.Router();const ctrl = require('../controllers');module.exports = router;
+```js
+const express = require('express');
+const router = express.Router();
+const ctrl = require('../controllers');
+
+module.exports = router;
 ```
 
 Also export users in `routes/index.js`.
 
-```
-module.exports = {    fruits: require('./fruits'),    users: require('./users')}
+```js
+module.exports = {
+    fruits: require('./fruits'),
+    users: require('./users')
+}
 ```
 
 ### server.js
 
 Finally, import user routes in `server.js`
 
-```
+```js
 app.use('/users', routes.users);
 ```
 
