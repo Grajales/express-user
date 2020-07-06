@@ -31,54 +31,29 @@ const users = [
 module.exports = users;
 ```
 
-### Create User Controller
+### Create Users Controller
 
-Create `users.js` under `controllers` folder. Import the `users` model.
-
-```js
-const users = require('../models/users');
-
-module.exports = {
-    
-}
-```
-
-Also, export users in `controllers/index.js`.
+Create `usersController.js` under `controllers` folder. Import the `users` model.
 
 ```js
-module.exports = {
-    fruits: require('./fruits'),
-    users: require('./users')
-}
-```
-
-### Create User Routes
-
-Create `users.js` under `routes` folder. Import the Express Router.
-
-```js
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const ctrl = require('../controllers');
+
+const users = require("../models/users");
 
 module.exports = router;
 ```
 
-Also export users in `routes/index.js`.
+Also, export users in `controllers/index.js`.
 
-```js
-module.exports = {
-    fruits: require('./fruits'),
-    users: require('./users')
-}
-```
+
 
 ### server.js
 
-Finally, import user routes in `server.js`
+Finally, import `usersController.js` in `server.js`
 
 ```js
-app.use('/users', routes.users);
+app.use("/users", require("./controllers/usersController.js"));
 ```
 
 ### Views
