@@ -84,11 +84,11 @@ What you have below are screenshots to the functionality that needs to be implem
 
 	![](./images/show-profile.png)
 
-1. Login form
+1. [Login form](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/4b81809d6b63f6d664672de1f8c1a9b4a6fc7e3c)
 
 	![](./images/login.png)
 	
-- After login, render profile page
+1. [After login, render profile page]()
 
 	![](./images/show-profile.png)
 
