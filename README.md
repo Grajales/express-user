@@ -92,15 +92,15 @@ What you have below are screenshots to the functionality that needs to be implem
 
 	![](./images/show-profile.png)
 
-- [Edit Profile]()
+- [Edit Profile](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/6e1ef91bea616b3ac8385817ddfb9db2b6ffb6e7)
 
 	![](./images/edit-profile.png)
 	
-- After updating profile, render profile page
+- [After updating profile, render profile page](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/6e1ef91bea616b3ac8385817ddfb9db2b6ffb6e7)
 
 	![](./images/updated-profile.png)
 	
-- Add link to view fruits index page on profile page
+- [Add link to view fruits index page on profile page](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/6e1ef91bea616b3ac8385817ddfb9db2b6ffb6e7)
 
 	![](./images/view-fruits.png)
 

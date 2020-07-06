@@ -53,4 +53,10 @@ router.put("/profile/:index", (req, res) => {
   res.redirect(`/users/profile/${req.params.index}`);
 });
 
+// DELETE USER
+router.delete("/:index", (req, res) => {
+  users.splice(req.params.index, 1); //remove the item from the array
+  res.redirect("/users"); //redirect back to index route
+});
+
 module.exports = router;
