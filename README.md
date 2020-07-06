@@ -64,23 +64,23 @@ Create a new folder `users` under `views`. Add all the view templates for user u
 
 Now that you have the skeleton ready, you are going to create APIs for the CRUD functionality on User model. But this time we will do things little differently. 
 
-You can view the solution code [here](https://git.generalassemb.ly/jdr-0622/express-user-model/tree/master/marc-solution/fruit-app) for reference.
+You can view the solution code [here](https://git.generalassemb.ly/jdr-0622/express-user-model/tree/master/marc-solution/fruit-app) for reference. Also, you can click on the link for each step to view the changes for that specific commit.
 
 What you have below are screenshots to the functionality that needs to be implemented, in the order that you have to implement it in.
+
+**Commit after each step**
 
 1. Start with the Homepage. [Add Signup and login links](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/efd8d3f56d95b92ced24e15c1694810c04e4bd47)
 
 	![](./images/homepage.png)
 	
 
-1. Signup form
+1. [Signup form](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/1d94a85134738f14fa5cd61b5af629cffe5c4a5f)
 
 	![](./images/signup.png)
 	
-<br>
-	
 
-- Once User signs up it, render profile page
+1. Once User signs up, redirect to the profile page. [This step will require a POST and a GET route.]
 
 	![](./images/show-profile.png)
 
