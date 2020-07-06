@@ -16,6 +16,11 @@ router.get("/signup", (req, res) => {
   res.render("users/signup.ejs");
 });
 
+// GET LOGIN
+router.get("/login", (req, res) => {
+  res.render("users/login.ejs");
+});
+
 // POST - CREATE NEW USER FROM SIGNUP
 router.post("/", (req, res) => {
   console.log(req.body);
