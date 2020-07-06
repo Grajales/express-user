@@ -108,10 +108,10 @@ What you have below are screenshots to the functionality that needs to be implem
 
 	![](./images/fruits.png)
 
-- Delete User
+- [Delete User](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/15b429638607da49938ce7ef20fce726b8745506)
 
 	![](./images/delete-user.png)
 	
-- After User is deleted, render user homepage
+- [After User is deleted, render user homepage](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/15b429638607da49938ce7ef20fce726b8745506))
 
 	![](./images/homepage.png)
