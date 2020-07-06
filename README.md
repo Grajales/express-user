@@ -88,11 +88,11 @@ What you have below are screenshots to the functionality that needs to be implem
 
 	![](./images/login.png)
 	
-1. [After login, render profile page]()
+1. [After login, render profile page](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/b657fdc8a1925a6b8ebb8fa7678bfd96db095307)
 
 	![](./images/show-profile.png)
 
-- Edit Profile
+- [Edit Profile]()
 
 	![](./images/edit-profile.png)
 	

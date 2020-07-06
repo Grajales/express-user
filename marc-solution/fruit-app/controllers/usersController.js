@@ -47,4 +47,10 @@ router.get("/profile/:index", (req, res) => {
   });
 });
 
+// EDIT PROFILE
+router.put("/profile/:index", (req, res) => {
+  users[req.params.index] = req.body;
+  res.redirect(`/users/profile/${req.params.index}`);
+});
+
 module.exports = router;
