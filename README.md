@@ -44,9 +44,6 @@ const users = require("../models/users");
 module.exports = router;
 ```
 
-Also, export users in `controllers/index.js`.
-
-
 
 ### server.js
 
