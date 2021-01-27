@@ -61,43 +61,43 @@ Create a new folder `users` under `views`. Add all the view templates for user u
 
 Now that you have the skeleton ready, you are going to create APIs for the CRUD functionality on User model. But this time we will do things little differently. 
 
-You can view the solution code [here](https://git.generalassemb.ly/jdr-0622/express-user-model/tree/master/marc-solution/fruit-app) for reference. Also, you can click on the link for each step to view the changes for that specific commit. Ignore the updates to the README file.
+You can view the solution code [here](https://git.generalassemb.ly/john-deere-sei-7/express-user-model/tree/master/marc-solution/fruit-app) for reference. Also, you can click on the link for each step to view the changes for that specific commit. Ignore the updates to the README file.
 
 What you have below are screenshots to the functionality that needs to be implemented, in the order that you have to implement it in.
 
 **Commit after each step**
 
-1. Start with the Homepage. [Add Signup and login links](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/efd8d3f56d95b92ced24e15c1694810c04e4bd47)
+1. Start with the Homepage. [Add Signup and login links](https://git.generalassemb.ly/john-deere-sei-7/express-user-model/commit/efd8d3f56d95b92ced24e15c1694810c04e4bd47)
 
 	![](./images/homepage.png)
 	
 
-1. [Signup form](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/1d94a85134738f14fa5cd61b5af629cffe5c4a5f)
+1. [Signup form](https://git.generalassemb.ly/john-deere-sei-7/express-user-model/commit/1d94a85134738f14fa5cd61b5af629cffe5c4a5f)
 
 	![](./images/signup.png)
 	
 
-1. Once User signs up, redirect to the profile page. [This step will require a POST and a GET route.](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/7e5e73dd47be0cc4b8f4aa7636291f38296a972a)
+1. Once User signs up, redirect to the profile page. [This step will require a POST and a GET route.](https://git.generalassemb.ly/john-deere-sei-7/express-user-model/commit/7e5e73dd47be0cc4b8f4aa7636291f38296a972a)
 
 	![](./images/show-profile.png)
 
-1. [Login form](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/4b81809d6b63f6d664672de1f8c1a9b4a6fc7e3c)
+1. [Login form](https://git.generalassemb.ly/john-deere-sei-7/express-user-model/commit/4b81809d6b63f6d664672de1f8c1a9b4a6fc7e3c)
 
 	![](./images/login.png)
 	
-1. [After login, render profile page](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/b657fdc8a1925a6b8ebb8fa7678bfd96db095307)
+1. [After login, render profile page](https://git.generalassemb.ly/john-deere-sei-7/express-user-model/commit/b657fdc8a1925a6b8ebb8fa7678bfd96db095307)
 
 	![](./images/show-profile.png)
 
-- [Edit Profile](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/6e1ef91bea616b3ac8385817ddfb9db2b6ffb6e7)
+- [Edit Profile](https://git.generalassemb.ly/john-deere-sei-7/express-user-model/commit/6e1ef91bea616b3ac8385817ddfb9db2b6ffb6e7)
 
 	![](./images/edit-profile.png)
 	
-- [After updating profile, render profile page](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/6e1ef91bea616b3ac8385817ddfb9db2b6ffb6e7)
+- [After updating profile, render profile page](https://git.generalassemb.ly/john-deere-sei-7/express-user-model/commit/6e1ef91bea616b3ac8385817ddfb9db2b6ffb6e7)
 
 	![](./images/updated-profile.png)
 	
-- [Add link to view fruits index page on profile page](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/6e1ef91bea616b3ac8385817ddfb9db2b6ffb6e7)
+- [Add link to view fruits index page on profile page](https://git.generalassemb.ly/john-deere-sei-7/express-user-model/commit/6e1ef91bea616b3ac8385817ddfb9db2b6ffb6e7)
 
 	![](./images/view-fruits.png)
 
@@ -105,10 +105,10 @@ What you have below are screenshots to the functionality that needs to be implem
 
 	![](./images/fruits.png)
 
-- [Delete User](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/15b429638607da49938ce7ef20fce726b8745506)
+- [Delete User](https://git.generalassemb.ly/john-deere-sei-7/express-user-model/commit/15b429638607da49938ce7ef20fce726b8745506)
 
 	![](./images/delete-user.png)
 	
-- [After User is deleted, render user homepage](https://git.generalassemb.ly/cfg-seir-1/express-user-model/commit/15b429638607da49938ce7ef20fce726b8745506)
+- [After User is deleted, render user homepage](https://git.generalassemb.ly/john-deere-sei-7/express-user-model/commit/15b429638607da49938ce7ef20fce726b8745506)
 
 	![](./images/homepage.png)
