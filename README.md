@@ -55,7 +55,7 @@ app.use("/users", require("./controllers/usersController.js"));
 
 ### Views
 
-Create a new folder `users` under `views`. Add all the view templates for user under this folder. Make sure to add the folder name while rendering a template. Like this, `res.render('users/index.ejs')`
+Create a new folder `users` under `views`. You will add all the view templates for user under this folder. Make sure to add the folder name while rendering a template. Like this, `res.render('users/index.ejs')`
 
 ## Independence Practice
 
